@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/home_tab.css" rel="stylesheet">
+  <link href="css/home_mob.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e6870c3ed8.js" crossorigin="anonymous"></script>
+  <script src="js/home.js" defer></script>
+</head>
+
+<body>
+  <!-- =================== header ================= -->
+  <header>
+    <div class="header_wrap">
+      <div class="header_inner">
+
+        <button class="header_hamburger" id="menuBtn"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="lucide lucide-text-align-justify-icon lucide-text-align-justify">
+            <path d="M3 5h18" />
+            <path d="M3 12h18" />
+            <path d="M3 19h18" />
+          </svg></button>
+
+        <div class="header_sidebar" id="sidebar">
+          <a href="#">Special - Order</a>
+          <a href="#">Showcase</a>
+          <a href="#">PT</a>
+          <a href="#">29Magazine</a>
+
+          <!-- 아코디언 1 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Best
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">전체</a>
+              <a href="#">여성의류</a>
+              <a href="#">여성가방</a>
+              <a href="#">남성의류</a>
+              <a href="#">남성가방</a>
+
+            </div>
+          </div>
+
+          <!-- 아코디언 2 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Women
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">전체</a>
+              <a href="#">의류</a>
+              <a href="#">신발</a>
+              <a href="#">액세서리</a>
+              <a href="#">모자</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 3 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Men
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">전체</a>
+              <a href="#">의류</a>
+              <a href="#">신발</a>
+              <a href="#">액세서리</a>
+              <a href="#">모자</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 4 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Interior
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">가구 인테리어</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 4 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Kitchen
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">주방/생활</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 4 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Electonics
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">가전</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 5 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Digital
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">컴퓨터/디지털</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 6 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Beuaty
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">뷰티</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 7 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Food
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">푸드</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 8 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Leisure
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">레저</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 9 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Kids
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">여아의류</a>
+              <a href="#">남아의류</a>
+              <a href="#">키즈</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 10 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              Culture
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">티켓</a>
+            </div>
+          </div>
+
+          <!-- 아코디언 11 -->
+          <div class="accordion-item">
+            <button class="accordion-btn">
+              <p>Earth</p>
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </button>
+
+            <div class="accordion-content">
+              <a href="#">더 나은 소재</a>
+              <a href="#">비건</a>
+              <a href="#">동물권 존중</a>
+              <a href="#">사회적 가치</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="overlay" id="overlay"></div>
+
+        <div class="header_logo">
+          <a href="home.html">
+            <img src="img/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="header_menu">
+          <div class="header_menu_text">
+            <span>LOOKBOOK</span>
+            <span>EVENT</span>
+          </div>
+          <!-- ======================================================== -->
+          <div class="header_menu_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-search-icon lucide-search">
+              <path d="m21 21-4.34-4.34" />
+              <circle cx="11" cy="11" r="8" />
+            </svg>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-heart-icon lucide-heart">
+              <path
+                d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+            </svg>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-user-icon lucide-user">
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-shopping-cart-icon lucide-shopping-cart">
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+  <!-- =================== header ================= -->
+  <!-- ========================= banner =================== -->
+  <div class="banner">
+    <div class="notice">
+      <div class="banner_container">
+        <div class="text-box">
+          <span class="item">장바구니 상품 보관 정책 변경 안내</span>
+          <span class="item">개인정보처리방침 개정 내용 사전 안내 (7/13 시행)</span>
+          <span class="item">7월 공휴일 배송 지연 안내</span>
+          <span class="item">무신사 통합 서비스 이용약관 개정 안내(6/4 시행)</span>
+          <span class="item">개인정보처리방침 개정 내용 사전 안내 (시행일: 2026년 6월 2일)</span>
+        </div>
+        <div class="notice_icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-x-icon lucide-x">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner_wrap">
+      <div class="banner_inner">
+      </div>
+    </div>
+  </div>
+  <!-- ========================= banner =================== -->
+  <!-- ========================= main =================== -->
+  <main>
+    <div class="main_wrap">
+      <div class="main_inner">
+        <div class="main_title">
+          <span>LESS, BUT BETTER.</span>
+        </div>
+        <div class="images">
+          <a href="#"><img src="img/1.png" alt="png1"></a>
+          <a href="#"><img src="img/2.png" alt="png2"></a>
+          <a href="#"><img src="img/3.png" alt="png3"></a>
+          <a href="#"><img src="img/4.png" alt="png4"></a>
+          <a href="#"><img src="img/5.png" alt="png5"></a>
+          <a href="#"><img src="img/6.png" alt="png6"></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- ========================= main =================== -->
+  <!-- ========================= banner =================== -->
+  <div class="feature">
+    <div class="feature_wrap">
+      <div class="feature_inner">
+        <div class="feature_title">
+          <span>SPECIAL-ORDER</span>
+          <div class="btn">
+            <button>
+              <span>VIEW ALL</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <P>29CM에서만 만나볼 수 있는 제품을
+            합리적인 가격으로 소개합니다.</P>
+        </div>
+
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider1.png" alt="sld1">
+              <span>여름 햇살 막아줄 셔츠</span>
+              <span>노우드의 자외선 차단 기능성 셔츠 단독</span>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider2.png" alt="sld2">
+              <span>여름을 함께 할 체크 셔츠</span>
+              <span>포레토의 여름을 위한 가벼운 체크 셔츠<br>
+                단독 15+10%</span>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider3.png" alt="sld3">
+              <span>매일 입고 싶은 플리츠</span>
+              <span>언더스탠딩 에디션의 베스트셀러<br>
+                플리츠 단독 15%</span>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider4.png" alt="sld4">
+              <span>휴가에 어울리는 나일론백</span>
+              <span>벨류엣의 가볍고 실용적인 나일론백 단독</span>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider5.png" alt="sld5">
+              <span>해원이 선택한 잠옷</span>
+              <span>여름밤을 위한 도씨 시원한
+                파자마 세트 <br>단독 ~64+5%</span>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider6.png" alt="sld6">
+              <span>매일 입고 싶은 티셔츠</span>
+              <span>오브베이지의 베스트 에센셜 티셔츠와 나시<br> 패키지
+                단독 출시</span>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================= feature slider =================== -->
+  </div>
+  <!-- ========================= 피쳐 =================== -->
+  <!-- ========================= 캠페인 =================== -->
+  <div class="campain">
+    <div class="campain_wrap">
+      <div class="campain_inner">
+        <span>해원이 선택한 잠옷</span>
+        <span>여름밤을 위한 도씨 시원한 파자마 세트</span>
+        <div class="campain_txt">
+          <p>단독</p>
+          <p>~64+5% </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================= 캠페인 =================== -->
+  <!-- ========================= 피쳐2 =================== -->
+  <div class="feature2">
+    <div class="feature2_wrap">
+      <div class="feature2_inner">
+
+        <div class="feature2_title">
+          <span>PT</span>
+          <div class="btn2">
+            <button>
+              <span>VIEW ALL</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="tab-menu">
+          <button class="tab active" data-tab="tab1">
+            <span>HISTORY</span></button>
+          <button class="tab" data-tab="tab2">
+            <span>NOW</span></button>
+          <button class="tab" data-tab="tab3">
+            <span>COMING</span></button>
+        </div>
+
+        <!-- 탭 내용 -->
+        <div class="tab-content">
+
+          <div class="tab-pane active" id="tab1">
+            <a href="#">
+              <img class="img1" src="img/pt1.png" alt="pt1">
+            </a>
+            <a href="#">
+              <img class="img2" src="img/pt2.png" alt="pt2">
+            </a>
+            <a href="#">
+              <img class="img3" src="img/pt3.png" alt="pt3">
+            </a>
+            <a href="#">
+              <img class="img4" src="img/pt6.png" alt="pt4">
+            </a>
+            <a href="#">
+              <img class="img5" src="img/pt5.png" alt="pt5">
+            </a>
+            <a href="#">
+              <img class="img6" src="img/pt4.png" alt="pt6">
+            </a>
+          </div>
+
+          <div class="tab-pane" id="tab2">
+            <span>C</span>
+            <span>O</span>
+            <span>M</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </div>
+
+          <div class="tab-pane" id="tab3">
+            <span>C</span>
+            <span>O</span>
+            <span>M</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </div>
+
+        </div>
+
+        </section>
+
+      </div>
+    </div>
+  </div>
+  <!-- ========================= 피쳐2 =================== -->
+  <!-- ========================= 피쳐3 =================== -->
+  <div class="feature3">
+    <div class="feature3_wrap">
+      <div class="feature3_inner">
+
+        <div class="feature2_title">
+          <span>29MAGAGINE</span>
+          <div class="btn2">
+            <button>
+              <span>VIEW ALL</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="feature3_content_wrap">
+          <div class="feature3_text">
+            <span>Latest Post</span>
+          </div>
+          <div class="feature3_content">
+            <div class="feature3_content1">
+              <div class="hash">
+                <span># 29 에디터스 픽</span>
+              </div>
+              <a href="#">
+                <img src="img/fruit.png" alt="fruit">
+              </a>
+              <span>29 에디터스 픽 Ep.59 </span>
+              <span>복날엔 과일 어때요?</span>
+              <div class="sub">
+                <span>삼계탕 대신 비타민을 채워요</span>
+                <span>2026.07.13</span>
+              </div>
+            </div>
+
+            <div class="feature3_content2">
+              <a href="#">
+                <img src="img/dress.png" alt="fruit">
+              </a>
+              <span>Ep.55 </span>
+              <span>단 한 벌로 마주하는 여름</span>
+              <div class="sub">
+                <span>각자의 매력을 지닌 다양한 서머 원피스를 소개할게요</span>
+                <span>2026.07.13</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- ========================= 피쳐3 =================== -->
+  <!-- ========================= 피쳐4 =================== -->
+  <div class="feature4">
+    <div class="feature4_wrap">
+      <div class="feature4_inner">
+
+        <div class="feature2_title">
+          <span>SHOWCASE</span>
+          <div class="btn2">
+            <button>
+              <span>VIEW ALL</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="feature4_content_wrap">
+
+          <div class="feature4_content">
+
+            <div class="feature4_content1">
+              <div class="feature4_image">
+                <a href="#">
+                  <img src="img/show1.png" alt="sh1">
+                </a>
+              </div>
+              <div class="feature4_text">
+                <span>ONITSUKA TIGER</span>
+                <span>2026.07.10. ~ 07.23</span>
+              </div>
+            </div>
+
+            <div class="feature4_content2">
+              <div class="feature4_image">
+                <a href="#">
+                  <img src="img/show2.png" alt="sh2">
+                </a>
+              </div>
+              <div class="feature4_text">
+                <span>ORDINENTXVISION STROLL</span>
+                <span>2026.07.10. ~ 07.23</span>
+              </div>
+            </div>
+
+            <div class="feature4_content3">
+              <div class="feature4_image">
+                <a href="#">
+                  <img src="img/show3.png" alt="sh3">
+                </a>
+              </div>
+              <div class="feature4_text">
+                <span>LEGODT</span>
+                <span>2026.07.10. ~ 07.23</span>
+              </div>
+            </div>
+
+            <div class="feature4_content4">
+              <div class="feature4_image">
+                <a href="#">
+                  <img src="img/show4.png" alt="sh4">
+                </a>
+              </div>
+              <div class="feature4_text">
+                <span>AROUND YUR</span>
+                <span>2026.07.10. ~ 07.26</span>
+              </div>
+            </div>
+
+            <div class="feature4_content5">
+              <div class="feature4_image">
+                <a href="#">
+                  <img src="img/show5.png" alt="sh5">
+                </a>
+              </div>
+              <div class="feature4_text">
+                <span>BAD BLOOD</span>
+                <span>2026.07.10. ~ 07.23</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- ========================= 피쳐4 =================== -->
+  <!-- 푸터=======================================================-->
+  <footer>
+    <div class="footer_wrap">
+      <div class="footer_inner">
+        <div class="footer_top">
+
+          <div class="footer_left">
+            <span>고객센터 1660-2929</span>
+            <span>운영시간 : 평일 09:00 ~ 18:00
+              (점심시간 12:00 ~ 13:00 제외)</span>
+          </div>
+
+          <div class="footer_right">
+
+            <span>
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+            <span>
+              <i class="fa-brands fa-google-play"></i>
+            </span>
+            <span>
+              <i class="fa-brands fa-square-instagram"></i>
+            </span>
+            <span>
+              <i class="fa-brands fa-apple"></i>
+            </span>
+          </div>
+        </div>
+        <div class="line2"></div>
+
+        <div class="footer_bottom">
+
+          <div class="footer_accordion">
+            <div class="accordion-items">
+
+
+              <div class="footer_accordion-item">
+                <button class="footer_accordion-header">
+                  <span>About Us</span>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down-icon lucide-chevron-down">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="footer_accordion-content">
+                  <p>인재채용</p>
+                  <p>상시 할인 혜택</p>
+                </div>
+              </div>
+
+              <div class="footer_accordion-item">
+                <button class="footer_accordion-header">
+                  <span>My Order</span>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down-icon lucide-chevron-down">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="footer_accordion-content">
+                  <p>주문배송</p>
+                  <p>취소/배송/반품내역</p>
+                  <p>상품 리뷰내역</p>
+                </div>
+              </div>
+
+              <div class="footer_accordion-item">
+                <button class="footer_accordion-header">
+                  <span>My Account</span>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down-icon lucide-chevron-down">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="footer_accordion-content">
+                  <p>나의 멤버십 등급</p>
+                  <p>회원정보 수정</p>
+                  <p>적립금 현황</p>
+                  <p>쿠폰</p>
+                </div>
+              </div>
+
+              <div class="footer_accordion-item">
+                <button class="footer_accordion-header">
+                  <span>Help</span>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down-icon lucide-chevron-down">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg></span>
+                </button>
+                <div class="footer_accordion-content">
+                  <p>공지사항</p>
+                  <p>입점/제휴문의</p>
+                  <p>상품Q&A내역</p>
+                  <p>마음의 소리</p>
+                </div>
+
+              </div>
+            </div>
+            <!-- ====== 아코디언 ============ -->
+            <div class="footer_text">
+              <div class="top">
+                <span>개인정보 처리방침</span>
+                <span>이용약관</span>
+                <span>분쟁해결기준</span>
+                <span>안전거래센터</span>
+                <span>결제대행 위탁사</span>
+              </div>
+              <div class="middle">
+                <span>상호명:(주)무신사</span>
+                <span>사업장소재지:서울특별시 성동구
+                  아차산로 13길 11, 1층 (성수동2가,
+                  무신사캠퍼스 N1)</span>
+                <br>
+                <span>통신판매업신고:
+                  2022-서울성동-01952</span>
+                <span>사업자등록번호:211-88-79575</span>
+                <span>팩스:070-8622-7737</span>
+                <br>
+                <span>호스팅서비스:(주)무신사</span>
+                <span>대표:조만호, 조남성</span>
+                <span>이메일:customer@29cm.co.kr</span>
+                <span>전화번호:1660-2929</span>
+              </div>
+              <div class="bottom">
+                <span>일부 상품의 경우 29CM는 통신판매의
+                  당사자가 아닌 통신판매중개자로서<br>
+                  상품, 상품정보, 거래에 대한 책임이
+                  제한될 수 있으므로, 각 상품 페이지에서
+                  구체적인 내용을 확인하시기 바랍니다.<br>
+                  당사는 고객님이 현금 결제한 금액에 대해
+                  우리은행과 채무지급보증 계약을 체결하여
+                  안전거래를 보장하고 있습니다.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </footer>
+</body>
+
+</html>
